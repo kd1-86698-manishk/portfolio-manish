@@ -76,19 +76,18 @@ const Navbar = () => {
                 </button>
               </div>
             </div>
-            {isMobileMenu && (
+            { isMobileMenu && (
               <ul className="ml-4 mt-4 flex flex-col gap-4 backdrop-blur-md">
-                {NAVIGATION_LINKS.map((item, index) => (
-                  <li key={index}>
-                    <a
-                      href={item.href}
-                      className="block w-full text-lg"
-                      onClick={(e) => handleLinkClick(item.href)}
-                    >
-                      {item.label}
-                    </a>
-                  </li>
-                ))}
+                {NAVIGATION_LINKS.map(
+                    (item,index)=>(
+                      <li key={index}>
+                        <a href={item.href} className="block w-full text-lg" onClick={(e)=> handleLinkClick(item.href)}>
+                          {item.label}
+                        </a>
+                      </li>
+                    )
+
+                )}
               </ul>
             )}
           </div>
