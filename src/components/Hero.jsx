@@ -1,6 +1,6 @@
 import React from "react";
 import{HERO } from"../constants"
-import manishImg from "../assets/carl.jpeg"
+import manishImg from "../assets/Manish.png"
 
 const Hero = () => {
   return (
