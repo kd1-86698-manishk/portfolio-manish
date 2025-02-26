@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Bio from "./components/Bio";
 import Skill from "./components/Skill";
+import Education from "./components/Education";
 
 const App = () => {
   return (
@@ -15,7 +16,8 @@ const App = () => {
           <Navbar/>
           <Projects />
           <Bio />
-          <Skill/>
+          <Skill />
+          <Education/>
         </div>
       </div>
     </>
