@@ -2,6 +2,7 @@ import React from "react";
 import { HERO } from "../constants";
 import manishImg from "../assets/Manish.png";
 import { motion } from "framer-motion";
+import resume from "../assets/resume.pdf";
 
 const Hero = () => {
   return (
@@ -20,6 +21,12 @@ const Hero = () => {
             {HERO.greet}
           </p>
           <p className="mb-8 p-2 text-xl">{HERO.description}</p>
+
+          <button className="mb-8 p-2 text-xl rounded border border-stone-400 font-bold hover:bg-stone-300 hover:text-black ">
+            <a href={resume} download>
+              Download CV
+            </a>
+          </button>
         </motion.div>
 
         <motion.div

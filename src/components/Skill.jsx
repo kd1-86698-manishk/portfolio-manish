@@ -46,10 +46,10 @@ const Skill = () => {
             >
               <div className="flex items-center ">
                 {skill.icon}
-                <h3 className="px-6 text-lg lg:text-2xl">{skill.name}</h3>
+                {/* <h3 className="px-6 text-lg lg:text-2xl">{skill.name}</h3> */}
               </div>
               <div className="text-md font-semibold lg:text-xl ">
-                <span className="">{skill.experience}</span>
+                <span className="">{skill.name}</span>
               </div>
             </motion.div>
           ))}

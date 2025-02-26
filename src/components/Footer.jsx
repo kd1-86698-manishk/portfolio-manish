@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 function Footer() {
   return (
     <>
-      <div className="mb-8 mt-20">
+      <div className="mb-8 mt-20" id="footer">
         <div className="flex items-center justify-center ">
           <motion.img
             initial={{opacity:0}}
