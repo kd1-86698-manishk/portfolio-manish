@@ -45,30 +45,34 @@ export const PROJECTS = [
       "A personal portfolio website built with React and Tailwind CSS to showcase my skills, projects, and contact information.",
     image: projectImage1,
     githubLink: "https://github.com/kd1-86698-manishk/portfolio-manish",
+    live: "",
   },
   {
     id: 2,
     name: "Tasty-Coffee-Delivery",
     description:
-      "An food delivery website developed using JavaScript,Bootstrap and React  featuring a comprehensive product Menu, shopping cart.",
+    "An food delivery website developed using JavaScript,Bootstrap and React  featuring a comprehensive product Menu, shopping cart.",
     image: projectImage2,
     githubLink: "https://github.com/kd1-86698-manishk/tasty-coffee-react",
+    live: "",
   },
   {
     id: 3,
     name: "Swiggy Clone App",
     description:
-      "This Swiggy Clone App provides a seamless and interactive food ordering experience with a stylish UI. It is a great project for learning React, Bootstrap customization, and frontend development best practices.",
+    "This Swiggy Clone App provides a seamless and interactive food ordering experience with a stylish UI. ",
     image: projectImage3,
     githubLink: "https://github.com/kd1-86698-manishk/swiggy-clone-app",
+    live: "",
   },
   {
     id: 4,
     name: "Health Club Managment System",
     description:
-      "The Health Club Management System is a web-based application designed to streamline health club operations, including member management, class scheduling, trainer assignments, dietplan & workout plan, and password reset.",
+    "The Health Club Management System is a web-based application designed to streamline health club operations, including member management,trainer assign dietplan.",
     image: projectImage4,
     githubLink: "https://github.com/kd1-86698-manishk/HealthClubManagement",
+    live: "",
   },
   // {
   //   id: 5,
