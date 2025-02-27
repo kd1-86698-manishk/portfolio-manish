@@ -65,7 +65,7 @@ function Contact() {
 
   return (
     <>
-      <div className="p-4 lg:w-3/4" id="contact">
+      <div className=" p-4 lg:w-3/4" id="contact">
         <Toaster />
         <h2
           className="my-8 text-center text-4xl 

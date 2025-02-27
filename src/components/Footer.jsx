@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 function Footer() {
   return (
     <>
-      <div className="mb-8 mt-20" id="footer">
+      <div className="mb-8 " id="footer">
         <div className="flex items-center justify-center ">
           <motion.img
             initial={{opacity:0}}
@@ -23,7 +23,7 @@ function Footer() {
               transition={{duration:0.2, delay:index*0.5}}
               
               key={index}
-              href="link.href"
+              href={ link.href}
               target="_blank"
               rel="noopener noreferrer"
             >

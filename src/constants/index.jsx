@@ -44,31 +44,31 @@ export const PROJECTS = [
     description:
       "A personal portfolio website built with React and Tailwind CSS to showcase my skills, projects, and contact information.",
     image: projectImage1,
-    githubLink: "https://github.com/user/personal-portfolio",
+    githubLink: "https://github.com/kd1-86698-manishk/portfolio-manish",
   },
   {
     id: 2,
     name: "Tasty-Coffee-Delivery",
     description:
-      "An e-commerce web application developed using Next.js and Stripe for payment integration, featuring a comprehensive product catalog, shopping cart, and checkout system.",
+      "An food delivery website developed using JavaScript,Bootstrap and React  featuring a comprehensive product Menu, shopping cart.",
     image: projectImage2,
-    githubLink: "https://github.com/user/ecommerce-platform",
+    githubLink: "https://github.com/kd1-86698-manishk/tasty-coffee-react",
   },
   {
     id: 3,
-    name: "Task Management Tool",
+    name: "Swiggy Clone App",
     description:
-      "A task management application built with React and Redux for efficient task tracking and team collaboration, including features like project boards, task assignment, and progress tracking.",
+      "This Swiggy Clone App provides a seamless and interactive food ordering experience with a stylish UI. It is a great project for learning React, Bootstrap customization, and frontend development best practices.",
     image: projectImage3,
-    githubLink: "https://github.com/user/task-management-tool",
+    githubLink: "https://github.com/kd1-86698-manishk/swiggy-clone-app",
   },
   {
     id: 4,
-    name: "Weather App",
+    name: "Health Club Managment System",
     description:
-      "A weather application that uses the OpenWeatherMap API to fetch and display current weather data and forecasts for various locations, built with React and styled-components.",
+      "The Health Club Management System is a web-based application designed to streamline health club operations, including member management, class scheduling, trainer assignments, dietplan & workout plan, and password reset.",
     image: projectImage4,
-    githubLink: "https://github.com/user/weather-app",
+    githubLink: "https://github.com/kd1-86698-manishk/HealthClubManagement",
   },
   // {
   //   id: 5,
@@ -182,27 +182,27 @@ export const EDUCATION = [
 
 export const SOCIAL_MEDIA_LINKS = [
   {
-    href: "https://x.com/",
+    href: "https://www.facebook.com/manish.karne.9/",
     icon: <FaFacebook fontSize={25} className="hover:opacity-80" />,
   },
   {
-    href: "https://x.com/",
+    href: "https://discord.com/",
     icon: <FaDiscord fontSize={25} className="hover:opacity-80" />,
   },
   {
-    href: "https://x.com/",
+    href: "https://www.instagram.com/manishkarne_0829/",
     icon: <FaInstagram fontSize={25} className="hover:opacity-80" />,
   },
   {
-    href: "https://x.com/",
+    href: "https://x.com/i/flow/login",
     icon: <FaXTwitter fontSize={25} className="hover:opacity-80" />,
   },
   {
-    href: "https://github.com/",
+    href: "https://github.com/kd1-86698-manishk",
     icon: <FaGithub fontSize={25} className="hover:opacity-80" />,
   },
   {
-    href: "https://www.linkedin.com/",
+    href: "https://www.linkedin.com/in/manish-karne-198683176/",
     icon: <FaLinkedin fontSize={25} className="hover:opacity-80" />,
   },
 ];

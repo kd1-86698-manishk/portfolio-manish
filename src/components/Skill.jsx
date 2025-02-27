@@ -40,7 +40,7 @@ const Skill = () => {
             <motion.div
               variants={itemVarients}
               key={index}
-              className={`py-6 flex items-center justify-between ${
+              className={`py-6 flex items-center justify-evenly ${
                 index !== SKILLS.length - 1 ? "border-b border-stone-50/30" : ""
               }`}
             >
