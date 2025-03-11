@@ -14,12 +14,13 @@ import projectImage4 from "../assets/project4.jpeg";
 // import projectImage5 from "../assets/project5.jpeg";
 // import projectImage6 from "../assets/project6.jpeg";
 
-import { RiCss3Fill, RiHtml5Fill, RiReactjsLine } from "react-icons/ri";
+import { RiBootstrapFill, RiCss3Fill, RiHtml5Fill, RiReactjsLine } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
 import { SiMongodb, SiMysql } from "react-icons/si";
 import { DiJava, DiRedis } from "react-icons/di";
 import { FaNodeJs } from "react-icons/fa";
 import { BiLogoGithub, BiLogoPostgresql, BiLogoSpringBoot } from "react-icons/bi";
+import { BsBootstrapFill } from "react-icons/bs";
 
 export const NAVIGATION_LINKS = [
   { label: "Projects", href: "#projects" },
@@ -34,7 +35,7 @@ export const HERO = {
   name: "MANISH  KARNE",
   greet: "Hello there! 👋🏻",
   description:
-    "I am a passionate frontend developer with a knack for creating beautiful and functional user interfaces. I like transforming ideas into engaging web experiences for over a decade.",
+    "As a Full-Stack Developer, I specialize in building dynamic and responsive web applications. With expertise in both front-end and back-end technologies, I create seamless user experiences and robust server-side solutions. I work with modern frameworks and languages like HTML, CSS, JavaScript, Node.js, and more to deliver complete, end-to-end solutions that meet user needs and business goals.",
 };
 
 export const PROJECTS = [
@@ -93,9 +94,8 @@ export const PROJECTS = [
 ];
 
 export const BIO = [
-  "Manish Karne studied computer engineering at the Savitribai Phule Pune University ,from Pune graduated in 2022. B.E Computer, he honed his craft and expertise over the course of 4 years at Tech Innovations Inc., where he immersed himself in the world of frontend development.",
-  "In 2021, driven by a shared vision for innovative web solutions and a passion for creating extraordinary user experiences Carl Frank co-founded WebArtistry alongside his creative partner, Jane Doe. Together, they set out to redefine frontend development, infusing their projects with creativity and cutting-edge technology.",
-  "As a multi-disciplinary frontend developer, Carl Frank brings a wealth of skills and expertise to his work. From his deep understanding of HTML, CSS, and JavaScript to his proficiency in modern frameworks like React and Vue.js, Carl Frank possesses a versatile skill set that allows him to craft stunning and unforgettable web experiences for his clients and audiences alike.",
+  "I am a passionate Full-Stack Developer with a Bachelor's degree in Computer Engineering and a Postgraduate Diploma in Advanced Computing. With a strong foundation in computer science and cutting-edge technologies, I specialize in developing scalable and efficient web applications. My expertise spans both front-end and back-end development, and I continuously explore new tools and frameworks to create innovative solutions. I am committed to delivering high-quality code and ensuring seamless user experiences.",
+  "I specialize in building dynamic, scalable web applications. I am proficient in a variety of technologies, including Java, and constantly explore new tools and frameworks to deliver high-quality solutions. My focus is on creating efficient, user-centric applications that meet both technical and business needs.",
 ];
 
 export const SKILLS = [
@@ -112,6 +112,11 @@ export const SKILLS = [
   {
     icon: <RiCss3Fill className="text-4xl text-sky-600 lg:text-5xl" />,
     name: "CSS",
+    experience: "",
+  },
+  {
+    icon: <RiBootstrapFill className="text-4xl text-fuchsia-500 lg:text-5xl" />,
+    name: "Bootstrap",
     experience: "",
   },
   {
@@ -166,21 +171,28 @@ export const EDUCATION = [
     institution: "Sunbeam Institute of Information Technology",
     duration: "August 2024 - February 2025",
     description:
-      "Specialized in Human-Computer Interaction and Software Engineering. Completed a thesis on enhancing user experience in web applications through advanced interactive techniques. Participated in various projects involving frontend development, algorithms, and data structures. Graduated with honors.",
+      "With 72.12 %",
   },
   {
     degree: "Bachelor of Engineering in Computer Science",
     institution: "Savitribai Phule Pune University ",
     duration: "June 2017 - June 2022",
     description:
-      "Focused on web development, programming languages, and database management. Actively involved in coding clubs and hackathons, where I developed several web applications using HTML, CSS, JavaScript, and PHP. Completed a senior project on developing an e-commerce platform. Graduated with a high GPA.",
+      "With 72.30 %",
   },
   {
     degree: "HSC",
     institution: "R.R.Shinde Jr College Pune",
     duration: "June 2016 - February 2017",
     description:
-      "Focused on web development, programming languages, and database management. Actively involved in coding clubs and hackathons, where I developed several web applications using HTML, CSS, JavaScript, and PHP. Completed a senior project on developing an e-commerce platform. Graduated with a high GPA.",
+      "With 61.23 %",
+  },
+  {
+    degree: "SSC",
+    institution: "Sadhana Vidyalaya Hadapsar Pune",
+    duration: "June 2014 - March 2015",
+    description:
+      "With 80.20 %",
   },
 ];
 
